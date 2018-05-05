@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <h1 class="text-center">Bootstrap 3</h1>
+
+    <h3>Class row example</h3>
+    <div class="row">
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+            <div class="col-xs-1">xs-1</div>
+        <div class="col-xs-4">col-xs-4</div>
+        <div class="col-xs-4">col-xs-4</div>
+        <div class="col-xs-4">col-xs-4</div>
+        <div class="col-xs-6">col-xs-6</div>
+        <div class="col-xs-6">col-xs-6</div>
+        <div class="col-xs-4">col-xs-4</div>
+        <div class="col-xs-8">col-xs-8</div>
+        <div class="col-xs-12">col-xs-12</div>
+    </div>
+    <br>
+    <h3>mark tag example</h3>
+    <p>mark: A <mark>Highlight</mark> text</p>
+<br>
+<h3>abbr tag example</h3>
+    <p> abbr: The <abbr title="Sopnil Rasel">Who</abbr> was born in 1998</p>
+    <br>
+
+    <h3>small tag example</h3>
+    <h1>Heading <small>Light heading</small> </h1>
+        <br>
+
+        
+        \<h3>blockquote example</h3>
+        <blockquote>
+            <p> An example with blockquote. An example with blockquote.
+                An example with blockquote. An example with blockquote.
+                An example with blockquote. An example with blockquote.
+                An example with blockquote. An example with blockquote. </p>
+                <footer>This is a footer example</footer>
+        </blockquote>
+        <p><strong>NB:</strong> footer is always written into the blockquote tag</p>
+        
+    
+    <br>
+    <h3>blockquote-reverse example</h3>
+    <p>To show the quote on the right use the class .blockquote-reverse:</p>
+  <blockquote class="blockquote-reverse">
+    <p> An example with blockquote reverse. An example with blockquote reverse.
+            An example with blockquote reverse.  An example with blockquote reverse.
+            An example with blockquote reverse.  An example with blockquote reverse.
+    </p>
+    <footer>From WWF's website</footer>
+  </blockquote>
+  <p>dl: This is an example with dl(Discription List),dd,dt tag</p>
+  <dl>
+      <dt>(dt) The data</dt>
+        <dd>-(dd) Data detail</dd>
+        <dt>The data</dt>
+        <dd>- The Data detail</dd>
+  </dl>
+<br>
+
+  <h3>code tag</h3>
+  <p>code tag will be like this <code>span</code> <code>title</code></p>
+  <br>
+
+  <h3>kbd tag</h3>
+  <p>kbd tag will be show like this <kbd> crtl + l</kbd></p>
+<br>
+
+<h3>pre tag</h3>
+<p>For multiple lines of code, use the pre element:</p>
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+</pre>
+
+<h3>Bootstrap color-text and background</h3>
+<p>The classes for text colors are:.text-muted, .text-primary,
+     .text-success, .text-info, .text-warning, and .text-danger:</p>
+<p class="text-success">example of text success</p>
+<p class="text-primary">example of text primary </p>
+<p class="text-danger">example of text danger</p>
+<p class="text-info">example of text info</p>
+<p class="text-muted">example of text muted</p>
+<p class="text-warning">example of text warning</p>
+<br>
+<p>The classes for background colors are:.bg-primary,
+     .bg-success, .bg-info, .bg-warning, and .bg-danger:</p>
+
+     <p class="bg-primary">This text is important.</p>
+     <p class="bg-success">This text indicates success.</p>
+     <p class="bg-info">This text represents some information.</p>
+     <p class="bg-warning">This text represents a warning.</p>
+     <p class="bg-danger">This text represents danger.</p>
+<br><br>
+<h3>class example</h3>
+     <p>The class .list-inline places all list items on a single line:</p>
+     <ul class="list-inline">
+       <li>Coffee</li>
+       <li>Tea</li>
+       <li>Milk</li>
+     </ul>
+<br>
+     <p>The class .list-unstyled removes the default
+          list-style and left margin on list items
+           (immediate children only):</p>
+  <ul class="list-unstyled">
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+
+  <p>Use the .dl-horizontal class line up the description 
+      list side-by-side when the browser window expands:</p>
+  <dl class="dl-horizontal">
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>     
+  <p><strong>Tip:</strong> Try to resize the browser window to
+     see the behaviour of the description list.</p>
+<br>
+
+<p>For multiple lines of code, use the pre element:</p>
+<pre>Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.</pre>
+
+<p>If you add the .pre-scrollable class, the pre element gets
+     a max-height of 350px and provides a y-axis scrollbar:</p>
+<pre class="pre-scrollable">Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.</pre>
+<br>
+
+<h3>Bootstrap Basic Table</h3>
+<p>A basic Bootstrap table has a light padding and only horizontal
+     dividers. 
+    The .table class adds basic styling to a table:</p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name:</th>
+            <th>Address:</th>
+            <th>Phone NO:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jhon</td>
+            <td>Dhaka</td>
+            <td>284566</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>San Carlos</td>
+            <td>5678/5251</td>
+        </tr>
+        <tr>
+            <td>Silva</td>
+            <td>Los Angel</td>
+            <td>65743205</td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+    <p>The .table-bordered class adds borders on all sides of the
+         table and cells:</p>
+    <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Name:</th>
+                <th>Address:</th>
+                <th>Phone NO:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jhon</td>
+                <td>Dhaka</td>
+                <td>284566</td>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>San Carlos</td>
+                <td>5678/5251</td>
+            </tr>
+            <tr>
+                <td>Silva</td>
+                <td>Los Angel</td>
+                <td>65743205</td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+    <p>The .table-hover class adds a hover effect (grey background color)
+         on table rows:</p>
+    <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Name:</th>
+                <th>Address:</th>
+                <th>Phone NO:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jhon</td>
+                <td>Dhaka</td>
+                <td>284566</td>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>San Carlos</td>
+                <td>5678/5251</td>
+            </tr>
+            <tr>
+                <td>Silva</td>
+                <td>Los Angel</td>
+                <td>65743205</td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+        <h3>Contextual Classes</h3>
+        <p>Contextual classes can be used to color table
+             rows (<tr>) or table cells (<td>):</p>
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Default</td>
+                    <td>Defaultson</td>
+                    <td>def@somemail.com</td>
+                  </tr>      
+                  <tr class="success">
+                    <td>Success</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Danger</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                  </tr>
+                  <tr class="info">
+                    <td>Info</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>Warning</td>
+                    <td>Refs</td>
+                    <td>bo@example.com</td>
+                  </tr>
+                  <tr class="active">
+                    <td>Active</td>
+                    <td>Activeson</td>
+                    <td>act@example.com</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3>Responsive Tables</h3>
+              <p>The .table-responsive class creates a responsive table.
+                   The table will then scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>
+              <div class="table-responsive">
+                  <table class="table">
+                        <thead>
+                                <tr>
+                                    <th>Name:</th>
+                                    <th>Address:</th>
+                                    <th>Phone NO:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jhon</td>
+                                    <td>Dhaka</td>
+                                    <td>284566</td>
+                                </tr>
+                                <tr>
+                                    <td>Alex</td>
+                                    <td>San Carlos</td>
+                                    <td>5678/5251</td>
+                                </tr>
+                                <tr>
+                                    <td>Silva</td>
+                                    <td>Los Angel</td>
+                                    <td>65743205</td>
+                                </tr>
+                            </tbody>
+                  </table>
+              </div>
+              <h3>Rounded Image Class</h3>
+              <p>The .img-rounded class adds rounded corners to
+                   an image (IE8 does not support rounded corners):</p>
+              <img src="paris.jpg" class="img-responsive img-rounded" alt="paris">
+              <br>
+              <h3>Circle Image class</h3>
+              <p>The .img-circle class shapes the image to a circle
+                   (IE8 does not support rounded corners):</p>
+                    <br>
+                   <img src="newyork.jpg" class="img-responsive img-circle" alt="newyork">
+                <br>
+                <h3>Thumbnail Image class</h3>
+                <p>The .img-thumbnail class shapes the image to a thumbnail:</p>
+                <img src="sanfran.jpg" class="img-responsive img-thumbnail" alt="sanfran">
+                <br><br>
+               
+                <h3>Image Gallery</h3>
+                <p>
+                        The .thumbnail class can be used to display an image gallery.
+                        <br>
+                        The .caption class adds proper padding and a dark grey color to text inside thumbnails.
+                        <br>
+                        Click on the images to enlarge them.
+
+                </p>
+
+                <div class="row">
+                    
+                    <div class="col-xs-4">
+                        <div class="thumbnail">
+                            <a href="lights.jpg" target="_blank">
+                                <img src="lights.jpg" alt="lights">
+                                <div class="caption text-center">
+                                    Image no:1
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="thumbnail">
+                            <a href="nature.jpg" target="_blank">
+                                <img src="nature.jpg" alt="nature">
+                                <div class="caption text-center">
+                                    Image no:2
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="thumbnail">
+                            <a href="fjords.jpg" target="_blank">
+                                <img src="fjords.jpg" alt="fjords" style="width: 100%;">
+                                <div class="caption text-center">
+                                    Image NO:3
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <h3>Responsive Embed</h3>
+                <p>Create a responsive video and scale it nicely
+                     to the parent element with an 16:9 aspect ratio</p>
+                     <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY">test</iframe>
+                          </div>
+                        </div>
+
+
+</div>
+</body>
+</html>
